@@ -19,6 +19,25 @@ max_line_length = 160
 indent_size = 2
 
 ###############################################################
+# TERRAFORM CONVENTIONS
+###############################################################
+[*.tf]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.tfvars]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+###############################################################
 # DOTNET CODING CONVENTIONS
 ###############################################################
 [*.{cs,vb}]
